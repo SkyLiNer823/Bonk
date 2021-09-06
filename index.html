@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonk</title>
+</head>
+
+<body>
+    <input type="file" onchange="openFile(event)">
+    <div id="container">
+        <div id="countBoard">0</div>
+        <button type='button' id='btn'>
+            <img id="img" height="500" style="display:none">
+        </button>
+        <div id='bat_container'>
+            <img id="bat" src="img/bonk.png" style="display:none">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+    <script src='./app.js'></script>
+</body>
+
+</html>

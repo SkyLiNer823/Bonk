@@ -1,0 +1,50 @@
+#container {
+    widows: 1000px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    background-color: white;
+    position: relative;
+    top: 50px;
+    border-radius: 0px;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    position: relative;
+    top: 50px;
+    widows: 800px;
+    height: 500px;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#bat {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    widows: 100px;
+    height: 300px;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#countBoard {
+    position: fixed;
+    top: 20px;
+    font-size: 30px;
+}
+
+#btn:active {
+    font-size: 13px;
+}
