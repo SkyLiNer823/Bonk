@@ -26,7 +26,7 @@ btn.addEventListener('click', function() {
     audio.currentTime = 0;
     audio.play();
     img.style.height = '500px';
-    img.style.height = img.height / 2 + 'px';
+    img.style.height = img.height / 1.2 + 'px';
     bat_container.innerHTML = '<img id="bat" src="bonk.png">';
     setTimeout(function() {
         img.style.height = '500px';
