@@ -30,6 +30,6 @@ btn.addEventListener('click', function() {
     bat_container.innerHTML = '<img id="bat" src="bonk.png">';
     setTimeout(function() {
         img.style.height = '500px';
-        bat_container.innerHTML = '<img id="bat" src="img/bonk.png" style="display:none">';
+        bat_container.innerHTML = '<img id="bat" src="bonk.png" style="display:none">';
     }, 500);
 })
